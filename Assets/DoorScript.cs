@@ -5,35 +5,21 @@ using UnityEngine;
 public class DoorScript : MonoBehaviour {
 
     public Animator anim;
-    
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-        
-
-
-	}
-
-    private void OnTriggerEnter(Collider other) // if player is within a certain distance of door then set character_nearby to true
+    private void OnTriggerEnter(Collider other) // if player is within a certain distance of door 
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "nobody")
         {
-            anim.SetBool("character_nearby", true);
+            anim.SetBool("character_nearby", true); // then open door
         }
         
             
     }
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other) // if player is beyond a certain distance of door
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "nobody")
         {
-            anim.SetBool("character_nearby", false);
+            anim.SetBool("character_nearby", false); // then close door
         }
     }
 }

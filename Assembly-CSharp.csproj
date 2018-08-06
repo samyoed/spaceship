@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{F5333735-B478-2C5C-2289-DD30FAFF04D5}</ProjectGuid>
+    <ProjectGuid>{040E05B0-1557-8D39-AD9B-3A7D5B562C31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,21 +61,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ButtonScript.cs" />
     <Compile Include="Assets\CameraScript.cs" />
     <Compile Include="Assets\DoorScript.cs" />
+    <Compile Include="Assets\NearbyScript.cs" />
+    <Compile Include="Assets\ParticleScript.cs" />
     <Compile Include="Assets\PlayerScript.cs" />
     <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/humme/Documents/Unity Project/Space Ship/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/humme/Documents/Unity Project/spaceship/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/humme/Documents/Unity Project/Space Ship/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/humme/Documents/Unity Project/spaceship/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/humme/Documents/Unity Project/Space Ship/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/humme/Documents/Unity Project/spaceship/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/humme/Documents/Unity Project/Space Ship/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/humme/Documents/Unity Project/spaceship/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
